@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import AxiosApp from './components/Axios/Axios';
+// import AxiosApp from './components/Axios/Axios';
 // import ChangeColour from './components/souvikSir/ChangeColor';
 // import Crud from '/Users/admin/React/my-app/src/components/CRUDapp/Crud.jsx' 
 // import ToDoApp from './components/ToDoApp/ToDoApp';
@@ -25,6 +25,7 @@ import AxiosApp from './components/Axios/Axios';
 // import Profile from './components/Profile'
 // import Navbar from './InstaClone/Navbar';
 // import  UseRef  from './components/UseRef/UseRef';
+import InstaAxios from '/Users/admin/React/my-app/src/components/Axios/InstaAxios.jsx'
 
 // Toggle=> classname
  function App(){
@@ -46,7 +47,8 @@ import AxiosApp from './components/Axios/Axios';
       {/* <Crud/> */}
       {/* <ChangeColour/> */}
       {/* <UseRef/> */}
-      <AxiosApp/>
+      {/* <AxiosApp/> */}
+      <InstaAxios/>
      </div>
    );
  }
