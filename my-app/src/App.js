@@ -25,7 +25,9 @@ import './App.css';
 // import Profile from './components/Profile'
 // import Navbar from './InstaClone/Navbar';
 // import  UseRef  from './components/UseRef/UseRef';
-import InstaAxios from '/Users/admin/React/my-app/src/components/Axios/InstaAxios.jsx'
+// import InstaAxios from '/Users/admin/React/my-app/src/components/Axios/InstaAxios.jsx'
+import Index2 from '/Users/admin/React/my-app/src/components/AvishSirToDoApp/Index2.jsx'
+
 
 // Toggle=> classname
  function App(){
@@ -48,7 +50,8 @@ import InstaAxios from '/Users/admin/React/my-app/src/components/Axios/InstaAxio
       {/* <ChangeColour/> */}
       {/* <UseRef/> */}
       {/* <AxiosApp/> */}
-      <InstaAxios/>
+      {/* <InstaAxios/> */}
+      <Index2/>
      </div>
    );
  }
