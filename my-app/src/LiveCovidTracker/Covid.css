@@ -1,0 +1,71 @@
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+#head{
+    align-self: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10%;
+}
+.box{
+    color: white;
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    padding: 5px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+}
+#red{
+    background-color: red;
+}
+#pink{
+    background-color: pink;
+}
+#crimson{
+    background-color: crimson;
+}
+#blue{
+    background-color: midnightblue;
+}
+#lightblue{
+    background-color: lightsteelblue;
+}
+#aqua{
+background-color: lightcoral;
+}
+#teal{
+    background-color:teal;
+}
+#tomato{
+    background-color: tomato;
+}
+#font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.card_name{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+padding-top: 20%;
+}
+.card_total{
+font-size: 30px;
+}
+.center_div{
+    margin-left: 12%;
+}
+
+section{
+    padding: 10% 0px 0px 0px;
+    padding-bottom: 80px;
+}
+.mode{
+    margin-top: -100px;
+    margin-bottom: 80px;
+    margin-left: 85%;
+}

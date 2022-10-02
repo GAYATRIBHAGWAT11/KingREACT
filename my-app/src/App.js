@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+// import MainApp from './React15Projects/BirthdayReminder01/Main';
 // import AxiosApp from './components/Axios/Axios';
 // import ChangeColour from './components/souvikSir/ChangeColor';
 // import Crud from '/Users/admin/React/my-app/src/components/CRUDapp/Crud.jsx' 
@@ -26,7 +27,12 @@ import './App.css';
 // import Navbar from './InstaClone/Navbar';
 // import  UseRef  from './components/UseRef/UseRef';
 // import InstaAxios from '/Users/admin/React/my-app/src/components/Axios/InstaAxios.jsx'
-import Index2 from '/Users/admin/React/my-app/src/components/AvishSirToDoApp/Index2.jsx'
+// import Index2 from '/Users/admin/React/my-app/src/components/AvishSirToDoApp/Index2.jsx'
+// import PostForm from '/Users/admin/React/my-app/src/components/PostRequest/PostForm.jsx'
+// import Temperature from '/Users/admin/React/my-app/src/components/WeatherApp/Temperature.jsx'
+// import Main from '/Users/admin/React/my-app/src/React15Projects/BirthdayReminder01/Main.jsx'
+import Livecovidtracker from '/Users/admin/React/my-app/src/LiveCovidTracker/Livecovidtracker.jsx'
+
 
 
 // Toggle=> classname
@@ -51,7 +57,11 @@ import Index2 from '/Users/admin/React/my-app/src/components/AvishSirToDoApp/Ind
       {/* <UseRef/> */}
       {/* <AxiosApp/> */}
       {/* <InstaAxios/> */}
-      <Index2/>
+      {/* <Index2/> */}
+      {/* <PostForm/> */}
+      {/* <Temperature/> */}
+      {/* <Main/> */}
+      <Livecovidtracker/>
      </div>
    );
  }
