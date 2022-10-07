@@ -41,7 +41,14 @@ import './App.css';
 // import ContextAPIA from '/Users/admin/React/my-app/src/components/ContextAPI/ContextAPIA.jsx'
 // import ThreeDots from '/Users/admin/React/my-app/src/ThreeDots/ThreeDots.jsx'
 // import ArrayuseState from '/Users/admin/React/my-app/src/ArrayuseState.jsx'
-import LoginForm from '/Users/admin/React/my-app/src/LoginForm.jsx';
+// import LoginForm from '/Users/admin/React/my-app/src/LoginForm.jsx';
+import Main from '/Users/admin/React/my-app/src/TestByAvishSir/Main.jsx'
+
+
+
+
+
+
 
 // Toggle=> classname
 function App() {
@@ -79,7 +86,9 @@ function App() {
       {/* <ContextAPIA/> */}
       {/* <ThreeDots/> */}
       {/* <ArrayuseState/> */}
-      <LoginForm/>
+      {/* <LoginForm/> */}
+      <Main/>
+    
       
       
 

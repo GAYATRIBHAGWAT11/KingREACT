@@ -17,6 +17,56 @@ as state changes function also get called again
 if 3 states declared and wann ude 2 state then use usenemo
 
 1 thing or 2 things are changing use useMemo
+//////---------------------------------------------------------------------------------------
+
+
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+ let nums=[2,7,11,15]
+var twoSum = function(nums, target) {
+   
+    
+for(let i=0;i<nums.length;i++){
+    for(let j=i+1; j<nums.length;j++){
+        if(nums[i]+nums[j]===target){
+            return [i,j]
+        }
+    }
+}
+};
+
+
+=>remove duplicates from sorted array
+
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var removeDuplicates = function(nums) {
+    for(let i=0;i<nums.length;i++){
+    for(j=nums.length;j>=i+1;j--){
+        if(nums[i]==nums[j]){
+            nums.splice(i,1)
+        }
+    }
+}
+    
+};
+
+=>remove element
+
+//pointer goes to last
+for(let i=0;i=nums.length-1;i>=0;i--){
+    if(nums[i]==val){
+        nums.splice(i,1)
+    }
+}
+
+=>
+
 
 
 

@@ -10,13 +10,13 @@ const LoginForm = () => {
         e.preventDefault();
 
         if (emialId && password) {
-            const UpdateText = { email: emialId, password: password }
-            setUpdateText([...updateText, UpdateText])
+            const newData = { email: emialId, password: password }
+            setUpdateText([...updateText, newData])
             // console.log(updateText);
             setemailId('')
             setPassword('')
         }else{
-           alert('invalid login')
+            alert('invalid login')
         }
 
     }
