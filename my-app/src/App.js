@@ -31,20 +31,28 @@ import './App.css';
 // import PostForm from '/Users/admin/React/my-app/src/components/PostRequest/PostForm.jsx'
 // import Temperature from '/Users/admin/React/my-app/src/components/WeatherApp/Temperature.jsx'
 // import Main from '/Users/admin/React/my-app/src/React15Projects/BirthdayReminder01/Main.jsx'
-import Livecovidtracker from '/Users/admin/React/my-app/src/LiveCovidTracker/Livecovidtracker.jsx'
-
-
+// import Livecovidtracker from '/Users/admin/React/my-app/src/LiveCovidTracker/Livecovidtracker.jsx'
+//  import CovidAxios from '/Users/admin/React/my-app/src/Covidaxios/CovidAxios.jsx'
+// import Parent from './AvishSir30oct/Parent';
+// import Reducer from '/Users/admin/React/my-app/src/components/Reducer.jsx'
+// import {MemoCounter} from '/Users/admin/React/my-app/src/Memo/MemoCounter.jsx'
+// import UseEffect from '/Users/admin/React/my-app/src/PracticeUseEffect/UseEffect.jsx'
+// import CounterOne from '/Users/admin/React/my-app/src/CustomHooks/CounterOne.jsx'
+// import ContextAPIA from '/Users/admin/React/my-app/src/components/ContextAPI/ContextAPIA.jsx'
+// import ThreeDots from '/Users/admin/React/my-app/src/ThreeDots/ThreeDots.jsx'
+// import ArrayuseState from '/Users/admin/React/my-app/src/ArrayuseState.jsx'
+import LoginForm from '/Users/admin/React/my-app/src/LoginForm.jsx';
 
 // Toggle=> classname
- function App(){
-   return(
-     <div>
-       {/* <Landing/> */}
-       {/* <Names/> */}
-       {/* <Greeting/> */}
-       {/* <Person/> */}
-       {/* <LoginUi/> */}
-       {/* <FavoriteColor/> */}
+function App() {
+  return (
+    <div>
+      {/* <Landing/> */}
+      {/* <Names/> */}
+      {/* <Greeting/> */}
+      {/* <Person/> */}
+      {/* <LoginUi/> */}
+      {/* <FavoriteColor/> */}
       {/* <Counter/> */}
       {/* <Parent/> */}
       {/* <LifeCycle/> */}
@@ -61,8 +69,22 @@ import Livecovidtracker from '/Users/admin/React/my-app/src/LiveCovidTracker/Liv
       {/* <PostForm/> */}
       {/* <Temperature/> */}
       {/* <Main/> */}
-      <Livecovidtracker/>
-     </div>
-   );
- }
- export default App;
+      {/* <Livecovidtracker/> */}
+      {/* <CovidAxios/> */}
+      {/* <Parent/> */}
+      {/* <Reducer/> */}
+      {/* <MemoCounter/> */}
+      {/* <UseEffect/> */}
+      {/* <CounterOne/> */}
+      {/* <ContextAPIA/> */}
+      {/* <ThreeDots/> */}
+      {/* <ArrayuseState/> */}
+      <LoginForm/>
+      
+      
+
+
+    </div>
+  );
+}
+export default App;

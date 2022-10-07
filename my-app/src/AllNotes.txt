@@ -1,0 +1,22 @@
+dealing with number , boolea, number always go with use state
+
+array and object => usestate
+
+item={
+    name:'ice cream",
+    price:100,
+    quantity:4,
+    totalPrice:()=> this.price+this.quantity
+}
+
+usememo will take 2 functions 1 is function and 2nd is dependencies list
+
+
+as state changes function also get called again
+
+if 3 states declared and wann ude 2 state then use usenemo
+
+1 thing or 2 things are changing use useMemo
+
+
+

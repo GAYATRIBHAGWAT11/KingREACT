@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import Data from './Data';
 import List from './List';
+import '/Users/admin/React/my-app/src/React15Projects/BirthdayReminder01/Style.css'
 function MainApp(){
     const [people,setPeople]=useState(Data)
     return(

@@ -1,0 +1,36 @@
+.form{
+    padding: 10px;
+    height: 200px;
+    width: 500px;
+    background-color: aqua;
+    margin: auto;
+}
+.email{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:5% ;
+}
+.pass{
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom:5% ;
+}
+.loginBtn{
+    display: flex;
+    justify-content:center;
+    padding-top: 10%;
+}
+input{
+    width: 350px;
+    border-radius: 10px;
+}
+.login{
+    border-radius: 10px;
+}
+.head{
+   text-align: center;
+   margin-top: 30%;
+}
+.alert{
+    color: red;
+}
