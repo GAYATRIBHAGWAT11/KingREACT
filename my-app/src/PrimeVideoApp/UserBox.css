@@ -1,0 +1,16 @@
+.userbox{
+    box-sizing: border-box;
+    width: 15rem;
+    padding: 0.5rem;
+    background-color: black;
+    color: white; 
+    position: absolute;  
+    left: 85%;
+    top: 6%;
+}
+.userbox li:hover{
+    background-color: lightgray;
+}
+.userbox ul{
+    list-style: none;
+}

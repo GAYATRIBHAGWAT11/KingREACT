@@ -1,0 +1,42 @@
+.leftBanner{
+    display: grid;
+    grid-template-columns: repeat(3,10rem);
+    text-align: center;
+
+}
+.small-box{
+    color: black;
+    padding: 1rem;
+   background-color: lightblue;
+   margin: 0.5rem;
+}
+.small-box:hover{
+    border: 5px solid white;
+}
+.flex{
+    display: flex;
+}
+
+.audio-languages ul{
+    display: grid;
+    grid-template-columns: repeat(2,10rem);
+}
+.category-banner{
+    justify-content: space-around;
+    background-color: black;
+    color: whitesmoke;
+    padding: 50px 0px;
+    margin-top: 50%;
+    z-index: 5;
+}
+.midLine{
+    border-left: 2px solid white;
+    height: 13rem;
+    align-self: center;
+}
+.heading{
+   font-weight: 800;
+}
+ul :hover{
+color: lightgray;
+}

@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+// import "~slick-carousel/slick/slick.css"; 
+// import "~slick-carousel/slick/slick-theme.css";
 // import MainApp from './React15Projects/BirthdayReminder01/Main';
 // import AxiosApp from './components/Axios/Axios';
 // import ChangeColour from './components/souvikSir/ChangeColor';
@@ -27,7 +29,7 @@ import './App.css';
 // import Navbar from './InstaClone/Navbar';
 // import  UseRef  from './components/UseRef/UseRef';
 // import InstaAxios from '/Users/admin/React/my-app/src/components/Axios/InstaAxios.jsx'
-// import Index2 from '/Users/admin/React/my-app/src/components/AvishSirToDoApp/Index2.jsx'
+//  import Index2 from '/Users/admin/React/my-app/src/components/AvishSirToDoApp/Index2.jsx'
 // import PostForm from '/Users/admin/React/my-app/src/components/PostRequest/PostForm.jsx'
 // import Temperature from '/Users/admin/React/my-app/src/components/WeatherApp/Temperature.jsx'
 // import Main from '/Users/admin/React/my-app/src/React15Projects/BirthdayReminder01/Main.jsx'
@@ -42,14 +44,33 @@ import './App.css';
 // import ThreeDots from '/Users/admin/React/my-app/src/ThreeDots/ThreeDots.jsx'
 // import ArrayuseState from '/Users/admin/React/my-app/src/ArrayuseState.jsx'
 // import LoginForm from '/Users/admin/React/my-app/src/LoginForm.jsx';
-import Main from '/Users/admin/React/my-app/src/TestByAvishSir/Main.jsx'
+// import Main from '/Users/admin/React/my-app/src/TestByAvishSir/Main.jsx'
+// import Parent from '/Users/admin/React/my-app/src/ImPracticingREACT/Parent.jsx'
+// import CounterUseState from '/Users/admin/React/my-app/src/ImPracticingREACT/CounterUseState.jsx'
+// import FunctionProps from './ImPracticingREACT/FunctionProps';
 
 
 
 
+//  import NetflixCard from '/Users/admin/React/my-app/src/NetflixCard/NetflixCard.jsx'
+// import {BrowserRouter, Routes, Route} from 'react-router-dom'
+// import SingleMovie from '/Users/admin/React/my-app/src/NetflixCard/SingleMovie.jsx'
 
 
 
+// import Home from '/Users/admin/React/my-app/src/NetflixCard/Home.jsx'
+// import GithubUser from '/Users/admin/React/my-app/src/GithubUserProject/GithubUser.jsx'
+// import Fetchapi from '/Users/admin/React/my-app/src/PrimeVideoApp/Fetchapi.jsx'
+
+
+
+// prime video project
+  import Header from '/Users/admin/React/my-app/src/PrimeVideoApp/Header.jsx'
+//  import CategoryBanner from '/Users/admin/React/my-app/src/PrimeVideoApp/CategoryBanner.jsx'
+// import LanguageBox from './PrimeVideoApp/LanguageBox';
+// import UserBox from './PrimeVideoApp/UserBox';
+ import MainBanner from '/Users/admin/React/my-app/src/PrimeVideoApp/MainBanner.jsx'
+import MoviesSlider from '/Users/admin/React/my-app/src/PrimeVideoApp/MoviesSlider.jsx'
 // Toggle=> classname
 function App() {
   return (
@@ -87,7 +108,29 @@ function App() {
       {/* <ThreeDots/> */}
       {/* <ArrayuseState/> */}
       {/* <LoginForm/> */}
-      <Main/>
+      {/* <Main/> */}
+      {/* <Parent/> */}
+      {/* <CounterUseState/> */}
+      {/* <FunctionProps/> */}
+      {/* <NetflixCard/> */}
+      {/* <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<NetflixCard/>} />
+        <Route path='movie/:id' element={<SingleMovie/>} />
+      </Routes>
+      </BrowserRouter> */}
+      {/* <Home/> */}
+      {/* <GithubUser/> */}
+      {/* <Fetchapi/> */}
+      {/* prime video project==================> */}
+      <Header/>
+      {/* <CategoryBanner/> */}
+    {/* <LanguageBox/> */}
+    {/* <UserBox/> */}
+    <MainBanner/>
+    {/* <MoviesSlider/> */}
+    
+
     
       
       

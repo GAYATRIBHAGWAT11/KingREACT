@@ -1,0 +1,36 @@
+.flex{
+    display: flex;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    position: sticky;
+}
+.navigation{
+    width: 350px;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    margin-right: 50px;
+}
+.deskIcons{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    height: 55px;
+    background-color:  black;
+    color: white;
+   
+}
+.center{
+    align-items: center;
+}
+.try{
+    background-color: darkblue;
+    padding: 10px;
+    border-radius: 5%;
+}

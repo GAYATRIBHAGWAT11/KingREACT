@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import '/Users/admin/React/my-app/src/TestByAvishSir/Main.css'
-import Input from '/Users/admin/React/my-app/src/TestByAvishSir/Input.jsx'
-
+import InputData from '/Users/admin/React/my-app/src/TestByAvishSir/InputData.jsx'
 
 const Counter=()=>{
     const [myCounter,setmyCounter]=useState(0);
  
+
+
     const increment=()=>{
         setmyCounter((prev)=>prev+1)
     }
@@ -14,6 +15,16 @@ const Counter=()=>{
     }
     const reset=()=>{
         setmyCounter(0)
+    }
+
+    const InputList=()=>{
+        const [myData,setmyData]=useState([])
+
+        const inputData=(input)=>{
+            setmyData([...myData,input])
+        }
+
+
     }
 
 
@@ -25,7 +36,7 @@ const Counter=()=>{
         <button onClick={increment}>increment</button>
         <button onClick={decrement}>decrement</button>
         <button onClick={reset}>reset</button>
-        <Input/>
+        <InputData/>
         </>
     )
 }
