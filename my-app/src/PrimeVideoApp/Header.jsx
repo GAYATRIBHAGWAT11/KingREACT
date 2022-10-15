@@ -6,6 +6,8 @@ import CategoryBanner from '/Users/admin/React/my-app/src/PrimeVideoApp/Category
 import '/Users/admin/React/my-app/src/PrimeVideoApp/Header.css'
 import LanguageBox from '/Users/admin/React/my-app/src/PrimeVideoApp/LanguageBox.jsx'
 import UserBox from "./UserBox";
+import MainBanner from '/Users/admin/React/my-app/src/PrimeVideoApp/MainBanner.jsx'
+import MovieDetails from '/Users/admin/React/my-app/src/PrimeVideoApp/MovieDetails.jsx'
 
 
 const Navbar = () => {
@@ -32,7 +34,7 @@ const Navbar = () => {
                                 <p>Channel</p>
                             </div>
                             <div>
-                               <p onClick={()=>setisToggle(!isToggle)}>Categories</p>
+                               <p onMouseOverCapture={()=>setisToggle(!isToggle)}>Categories</p>
                                {isToggle && <CategoryBanner/>}
                                {/* <FaAngleDown/> */}
                             </div>
@@ -49,19 +51,22 @@ const Navbar = () => {
                         </div>
                         <div>
                             <input type="text" />
-                            <FaSearch onClick={()=>setVisible(true)}/>
+                            <FaSearch/>
                         </div>
                         <div>
-                            <FaGlobe  onClick={()=>setisLanguage(!isLanguage)}/><span>EN</span>
+                            <FaGlobe  onMouseOverCapture={()=>setisLanguage(!isLanguage)}/><span>EN</span>
                             {isLanguage && <LanguageBox/>}
                         </div>
                         <div>
-                            <FaUser onClick={()=>setuserBox(!userBox)}/>
+                            <FaUser onMouseOverCapture={()=>setuserBox(!userBox)}/>
                             {userBox && <UserBox/>}
                         </div>
                     </div>
                 </div>
             </nav>
+            <MainBanner/>
+            <MovieDetails/>
+
         </>
     )
 }

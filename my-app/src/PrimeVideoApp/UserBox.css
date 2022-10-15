@@ -6,10 +6,10 @@
     color: white; 
     position: absolute;  
     left: 85%;
-    top: 6%;
+    top: 70%;
 }
 .userbox li:hover{
-    background-color: lightgray;
+    color: lightgray;
 }
 .userbox ul{
     list-style: none;

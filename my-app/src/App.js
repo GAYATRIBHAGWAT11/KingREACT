@@ -1,5 +1,12 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Header from './Router/Header';
+import Home from '/Users/admin/React/my-app/src/Router/Home.jsx'
+import About from './Router/About';
+import Content from './Router/Content';
+import Contact from './Router/Contact';
+
 // import "~slick-carousel/slick/slick.css"; 
 // import "~slick-carousel/slick/slick-theme.css";
 // import MainApp from './React15Projects/BirthdayReminder01/Main';
@@ -65,16 +72,24 @@ import './App.css';
 
 
 // prime video project
-  import Header from '/Users/admin/React/my-app/src/PrimeVideoApp/Header.jsx'
+// import Header from '/Users/admin/React/my-app/src/PrimeVideoApp/Header.jsx'
 //  import CategoryBanner from '/Users/admin/React/my-app/src/PrimeVideoApp/CategoryBanner.jsx'
 // import LanguageBox from './PrimeVideoApp/LanguageBox';
 // import UserBox from './PrimeVideoApp/UserBox';
- import MainBanner from '/Users/admin/React/my-app/src/PrimeVideoApp/MainBanner.jsx'
-import MoviesSlider from '/Users/admin/React/my-app/src/PrimeVideoApp/MoviesSlider.jsx'
+//  import MainBanner from '/Users/admin/React/my-app/src/PrimeVideoApp/MainBanner.jsx'
+// import MovieDetails from '/Users/admin/React/my-app/src/PrimeVideoApp/MovieDetails.jsx'
+
+
+
+
+
+
+
+
 // Toggle=> classname
 function App() {
   return (
-    <div>
+    <>
       {/* <Landing/> */}
       {/* <Names/> */}
       {/* <Greeting/> */}
@@ -123,20 +138,37 @@ function App() {
       {/* <GithubUser/> */}
       {/* <Fetchapi/> */}
       {/* prime video project==================> */}
-      <Header/>
+      {/* <Header/> */}
       {/* <CategoryBanner/> */}
-    {/* <LanguageBox/> */}
-    {/* <UserBox/> */}
-    <MainBanner/>
-    {/* <MoviesSlider/> */}
-    
-
-    
-      
-      
+      {/* <LanguageBox/> */}
+      {/* <UserBox/> */}
+      {/* <MainBanner/> */}
+      {/* <MovieDetails/> */}
 
 
-    </div>
+
+
+
+
+
+      <Header />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='movie' element={<About />} />
+          <Route path='/about/:id' element={<Content />} />
+          <Route path='/contact' element={<Contact />} />
+
+        </Routes>
+      </BrowserRouter>
+
+
+
+
+
+
+
+    </>
   );
 }
 export default App;

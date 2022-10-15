@@ -26,8 +26,11 @@
     background-color: black;
     color: whitesmoke;
     padding: 50px 0px;
-    margin-top: 50%;
     z-index: 5;
+    position: absolute;
+    bottom: -580%;
+    margin-top: 50%;
+    /* margin: auto; */
 }
 .midLine{
     border-left: 2px solid white;

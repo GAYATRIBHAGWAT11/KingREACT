@@ -1,0 +1,21 @@
+.Card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    background-color: black;
+    color: white;
+}
+.poster{
+    width: 200px;
+}
+.Container{
+    box-sizing: border-box;
+    padding: 1rem;
+    border: 2px solid whitesmoke;
+    margin: 1rem;
+    text-align: center;
+}
+.title{
+margin-top: 10%;
+   font-size: large;
+}

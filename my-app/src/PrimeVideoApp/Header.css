@@ -4,8 +4,9 @@
 .main-nav{
     display: flex;
     justify-content: space-between;
-    /* position: fixed; */
-    position: sticky;
+    /* position: sticky; */
+    position: relative;
+
 }
 .navigation{
     width: 350px;
@@ -24,6 +25,9 @@ nav{
     height: 55px;
     background-color:  black;
     color: white;
+    z-index: 5;
+    margin-bottom: 0rem;
+    clear: both;
    
 }
 .center{
