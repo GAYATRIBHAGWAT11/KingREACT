@@ -4,18 +4,26 @@
     grid-template-columns: repeat(5,auto);
     background-color: black;
     color: white;
+    margin-top: 5%;
 }
 .poster{
     width: 200px;
 }
+
 .Container{
     box-sizing: border-box;
     padding: 1rem;
-    border: 2px solid whitesmoke;
+    /* border: 2px solid whitesmoke; */
     margin: 1rem;
     text-align: center;
 }
 .title{
 margin-top: 10%;
-   font-size: large;
+   font-size: medium;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Container:hover{
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5)
 }

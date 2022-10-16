@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Header from './Router/Header';
-import Home from '/Users/admin/React/my-app/src/Router/Home.jsx'
-import About from './Router/About';
-import Content from './Router/Content';
-import Contact from './Router/Contact';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom'
+// import Header from './Router/Header';
+// import Home from '/Users/admin/React/my-app/src/Router/Home.jsx'
+// import About from './Router/About';
+// import Content from './Router/Content';
+// import Contact from './Router/Contact';
 
 // import "~slick-carousel/slick/slick.css"; 
 // import "~slick-carousel/slick/slick-theme.css";
@@ -35,7 +35,7 @@ import Contact from './Router/Contact';
 // import Profile from './components/Profile'
 // import Navbar from './InstaClone/Navbar';
 // import  UseRef  from './components/UseRef/UseRef';
-// import InstaAxios from '/Users/admin/React/my-app/src/components/Axios/InstaAxios.jsx'
+//  import InstaAxios from '/Users/admin/React/my-app/src/components/Axios/InstaAxios.jsx'
 //  import Index2 from '/Users/admin/React/my-app/src/components/AvishSirToDoApp/Index2.jsx'
 // import PostForm from '/Users/admin/React/my-app/src/components/PostRequest/PostForm.jsx'
 // import Temperature from '/Users/admin/React/my-app/src/components/WeatherApp/Temperature.jsx'
@@ -72,12 +72,17 @@ import Contact from './Router/Contact';
 
 
 // prime video project
-// import Header from '/Users/admin/React/my-app/src/PrimeVideoApp/Header.jsx'
+  import Header from '/Users/admin/React/my-app/src/PrimeVideoApp/Header.jsx'
+
+
+
+
 //  import CategoryBanner from '/Users/admin/React/my-app/src/PrimeVideoApp/CategoryBanner.jsx'
 // import LanguageBox from './PrimeVideoApp/LanguageBox';
 // import UserBox from './PrimeVideoApp/UserBox';
 //  import MainBanner from '/Users/admin/React/my-app/src/PrimeVideoApp/MainBanner.jsx'
 // import MovieDetails from '/Users/admin/React/my-app/src/PrimeVideoApp/MovieDetails.jsx'
+// import SearchMovie from '/Users/admin/React/my-app/src/PrimeVideoApp/SearchMovie.jsx'
 
 
 
@@ -138,12 +143,13 @@ function App() {
       {/* <GithubUser/> */}
       {/* <Fetchapi/> */}
       {/* prime video project==================> */}
-      {/* <Header/> */}
+      <Header/>
       {/* <CategoryBanner/> */}
       {/* <LanguageBox/> */}
       {/* <UserBox/> */}
       {/* <MainBanner/> */}
       {/* <MovieDetails/> */}
+      {/* <SearchMovie/> */}
 
 
 
@@ -151,7 +157,7 @@ function App() {
 
 
 
-      <Header />
+      {/* <Header />
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
@@ -160,7 +166,7 @@ function App() {
           <Route path='/contact' element={<Contact />} />
 
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
 
 
 
