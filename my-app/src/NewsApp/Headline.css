@@ -1,0 +1,30 @@
+.heading{
+    color: black;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sidebar{
+    margin: 2rem;
+    border: 2px black;
+}
+#titleH{
+    width: 100%; 
+    padding: 1rem;
+    margin: 1rem;
+    background-color:black;
+    color: white;
+    border: 5px solid aqua;
+    margin-bottom: 5rem;
+}
+.block{
+    display: block;
+}
+.none{
+    display: none;
+}
+#url{
+    font-size: medium;
+    margin: 1rem;
+}

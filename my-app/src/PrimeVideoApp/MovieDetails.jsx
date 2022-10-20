@@ -14,12 +14,12 @@ const MovieDetails = () => {
 
     const MovieData = async () => {
 
-        const res = await axios.get(`https://www.omdbapi.com/?apikey=74170e3b&s=adventure&page=2`)
+        const res = await axios.get(`https://www.omdbapi.com/?apikey=74170e3b&s=baby&page=2`)
         console.log(res);
         setMoviedata(res.data.Search);
 
     }
-    useEffect(() => {
+    useEffect(() => { 
         MovieData();
 
     }, [])

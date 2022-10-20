@@ -1,0 +1,6 @@
+.todolist_style{
+    display: flex;
+}
+#text{
+    width: 100%;
+}

@@ -1,0 +1,17 @@
+.inputText{
+    width: auto;
+    display: inline-flex;
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+}
+.center_div{
+    margin-top: 2rem;
+}
+.comment{
+    padding: 0 1rem;
+}
+.likeFeature{
+    margin-top: 2rem;
+}
+

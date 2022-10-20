@@ -72,7 +72,7 @@ import './App.css';
 
 
 // prime video project
-  import Header from '/Users/admin/React/my-app/src/PrimeVideoApp/Header.jsx'
+  // import Header from '/Users/admin/React/my-app/src/PrimeVideoApp/Header.jsx'
 
 
 
@@ -86,6 +86,14 @@ import './App.css';
 
 
 
+// news app=>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//  import Footer from '/Users/admin/React/my-app/src/NewsApp/Footer.jsx'
+// import SearchFeature from '/Users/admin/React/my-app/src/NewsApp/SearchFeature.jsx'
+// import LikeFeature from '/Users/admin/React/my-app/src/NewsApp/LikeFeature.jsx'
+
+// import Axios from '/Users/admin/React/my-app/src/components/Axios/Axios.jsx'
+ import News from '/Users/admin/React/my-app/src/NewsApp/News.jsx'
+// import NewsAxios from "/Users/admin/React/my-app/src/NewsApp/NewsAxios.jsx";
 
 
 
@@ -143,13 +151,22 @@ function App() {
       {/* <GithubUser/> */}
       {/* <Fetchapi/> */}
       {/* prime video project==================> */}
-      <Header/>
+      {/* <Header/> */}
       {/* <CategoryBanner/> */}
       {/* <LanguageBox/> */}
       {/* <UserBox/> */}
       {/* <MainBanner/> */}
       {/* <MovieDetails/> */}
       {/* <SearchMovie/> */}
+
+      {/* newx app ==============================>*/}
+      <News/>
+    {/* <NewsAxios/>   */}
+      {/* <SearchFeature/> */}
+      {/* <Axios/> */}
+
+
+
 
 
 
@@ -167,8 +184,6 @@ function App() {
 
         </Routes>
       </BrowserRouter> */}
-
-
 
 
 

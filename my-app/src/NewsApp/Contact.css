@@ -1,0 +1,18 @@
+.flex{
+    display: flex;
+}
+.socialMedia #img{
+   width: 5%;
+   height: 20%;
+   margin: 1rem;
+}
+.contactUs{
+    /* display: flex; */
+    align-items: center;
+    display: inline-flex;
+    border-bottom: 1px solid lightgray;
+}
+.Desc{
+    margin-top: 5rem;
+}
+

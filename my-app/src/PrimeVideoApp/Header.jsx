@@ -34,7 +34,7 @@ const Navbar = () => {
                                 <p>Channel</p>
                             </div>
                             <div>
-                               <p onMouseOverCapture={()=>setisToggle(!isToggle)}>Categories</p>
+                               <p onMouseEnter={()=>setisToggle(!isToggle)}>Categories</p>
                                {isToggle && <CategoryBanner/>}
                                {/* <FaAngleDown/> */}
                             </div>

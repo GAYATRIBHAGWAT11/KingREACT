@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+#cardMain{
+margin: 0 auto;
+padding: 2rem;
+background-color: white;
+margin: 10%;
+background-color: whitesmoke;
+ border-radius: 5rem; 
+border: 2px solid black; 
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.titleMain{
+    font-weight: bold;
+}
+.author{
+    font-weight: bold;
+}
+.remove{
+    background-color: red;
+    color: black;
+    font: 900;
+    padding: 0.5rem;
+    border-radius: 5px;
+    animation-name: example;
+  animation-duration: 10s;
+  animation: mymove 5s infinite;
+  text-decoration: none;
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  @keyframes mymove {
+    50% {transform: rotate(20deg);}
+  }
+.ReadMore{
+    background-color: blue;
+    color: white;
+    font: 900;
+    padding: 0.5rem;
+    border-radius: 5px;
+    animation-name: example;
+    animation-duration: 100s;
+    animation: mymove 5s infinite;
+    text-decoration: none;
+}
+@keyframes mymove {
+    50% {transform: rotate(20deg);}
+  }
+@keyframes example {
+    0%   {background-color: lightblue;}
+    25%  {background-color: blue;}
+    50%  {background-color: yello;}
+    100% {background-color: green;}
+  }
+#NewsSearch{
+   margin: 1rem;
+   border-radius: 5px;
+   border-style: none;
+   text-align: center;
+   padding: 1rem;
+   width: 50%;
+   border-style: double;
+   position: relative;
+}
+.SearchBar{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 500px){
+  .NewSearch{
+      width: 50px;
+      margin-left: 10px;
+  }
+  }
+.source{
+    font-weight: 500;
+}
+.search{
+    position: absolute;
+    left: 45%;
+    border: none;
+}
+.imgMain{
+  width:100%
+}
+h1{
+  text-align: center;
+}
+
+
+
+
