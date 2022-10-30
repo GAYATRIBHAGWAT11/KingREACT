@@ -26,6 +26,7 @@ const CovidTracker = () => {
 
     }
 
+    
 
 
     const [myData, setMyData] = useState([])

@@ -72,7 +72,7 @@ import './App.css';
 
 
 // prime video project
-  // import Header from '/Users/admin/React/my-app/src/PrimeVideoApp/Header.jsx'
+// import Header from '/Users/admin/React/my-app/src/PrimeVideoApp/Header.jsx'
 
 
 
@@ -92,9 +92,14 @@ import './App.css';
 // import LikeFeature from '/Users/admin/React/my-app/src/NewsApp/LikeFeature.jsx'
 
 // import Axios from '/Users/admin/React/my-app/src/components/Axios/Axios.jsx'
- import News from '/Users/admin/React/my-app/src/NewsApp/News.jsx'
+// import News from '/Users/admin/React/my-app/src/NewsApp/News.jsx'
 // import NewsAxios from "/Users/admin/React/my-app/src/NewsApp/NewsAxios.jsx";
-
+// news app by souvik sir=================================>
+//  import MainApp from '/Users/admin/React/my-app/src/NewsAppSouvikSir/MainApp.jsx'
+// import MockReact from '/Users/admin/React/my-app/src/MockReact./MockReact.jsx'
+// import NoteContext from '/Users/admin/React/my-app/src/Context/NoteContext.jsx'
+// import Reducer from '/Users/admin/React/my-app/src/Reducer.jsx'
+import MockCounter from '/Users/admin/React/my-app/src/MockCounter.jsx'
 
 
 
@@ -102,7 +107,7 @@ import './App.css';
 // Toggle=> classname
 function App() {
   return (
-    <>
+    <App>
       {/* <Landing/> */}
       {/* <Names/> */}
       {/* <Greeting/> */}
@@ -160,11 +165,14 @@ function App() {
       {/* <SearchMovie/> */}
 
       {/* newx app ==============================>*/}
-      <News/>
-    {/* <NewsAxios/>   */}
-      {/* <SearchFeature/> */}
-      {/* <Axios/> */}
+      {/* <News/> */}
 
+      {/* News app by souvik sir======================> */}
+      {/* <MainApp/> */}
+      {/* ================================================== */}
+      {/* <MockReact/> */}
+      {/* <NoteContext /> */}
+      <MockCounter/>
 
 
 
@@ -189,7 +197,7 @@ function App() {
 
 
 
-    </>
+    </App>
   );
 }
 export default App;

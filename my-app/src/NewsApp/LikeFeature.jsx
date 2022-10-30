@@ -8,11 +8,11 @@ const LikeDeslike = () => {
     const [LikeFeature, setLikeFeature] = useState(0)
     const [DeslikeFeature, setDeslikeFeature] = useState(0)
 
-
     const [likeState, setLikeState] = useState(false)
     const [deslikeState, setDeslikeState] = useState(false)
 
     const Like = () => {
+        <h1>this islike and deslike</h1>
         if (likeState) {
             setLikeState(false)
             setLikeFeature(LikeFeature + 1)
@@ -58,3 +58,7 @@ const LikeDeslike = () => {
     )
 }
 export default LikeDeslike;
+
+
+
+

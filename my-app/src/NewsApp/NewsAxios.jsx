@@ -65,6 +65,7 @@ const NewsAxios = () => {
         // console.log(afterFilterData);
         setFilteredData(afterFilterData);
     }, [search]);
+    // jitni bari search change hoga utni bari useeffect call hoga
 
 
 

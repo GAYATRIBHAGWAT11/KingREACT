@@ -1,8 +1,9 @@
-import React from "react";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrash } from '@fortawesome/free-solid-svg-icons'
 import '/Users/admin/React/my-app/src/NewsApp/CommentApp.css'
 import '/Users/admin/React/my-app/src/NewsApp/CommentList.css'
+
 const CommentList = (props) => {
     return (
         <>
@@ -12,10 +13,10 @@ const CommentList = (props) => {
                 <button onClick={() => {
                     props.onSelect(props.id)
                 }} className="delete">
-                    <FontAwesomeIcon icon={faTrash} className='searxh'></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faTrash}></FontAwesomeIcon>
                 </button>
             </div>
         </>
     )
 }
-export default CommentList;
+export default CommentList

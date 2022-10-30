@@ -8,14 +8,18 @@ import '/Users/admin/React/my-app/src/PrimeVideoApp/MovieDetails.css'
 const MovieDetails = () => {
     // const [poster, setPoster]=useState('');
     const [getMovieData, setMoviedata] = useState([])
-    //  const [page, setPage]=useState(0)
+     const [page, setPage]=useState(0)
+
+     const handlePageChange=(value)=>{
+         setPage(value)
+     }
 
 
 
     const MovieData = async () => {
 
-        const res = await axios.get(`https://www.omdbapi.com/?apikey=74170e3b&s=baby&page=2`)
-        console.log(res);
+        const res = await axios.get(`https://www.omdbapi.com/?apikey=74170e3b&s=baby&page=${page}`)
+        console.log('response',res);
         setMoviedata(res.data.Search);
 
     }

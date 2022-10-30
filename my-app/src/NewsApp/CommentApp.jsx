@@ -31,8 +31,6 @@ const ToDoApp = () => {
 
 
 
-
-
     return (
         <>
             <div className='main_div'>

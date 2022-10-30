@@ -4,12 +4,13 @@ import NewsAxios from '/Users/admin/React/my-app/src/NewsApp/NewsAxios.jsx'
 import About from '/Users/admin/React/my-app/src/NewsApp/About.jsx'
 import Contact from '/Users/admin/React/my-app/src/NewsApp/Contact.jsx'
 import Footer2 from '/Users/admin/React/my-app/src/NewsApp/Footer2.jsx'
-import '/Users/admin/React/my-app/src/NewsApp/News.css'
-import { Route, Routes } from 'react-router-dom'
+// import '/Users/admin/React/my-app/src/NewsApp/News.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 const NewsApp = () => {
     return (
         <>
+            <BrowserRouter>
             <Navbar />
             <div className="container">
                 <Routes>
@@ -20,6 +21,7 @@ const NewsApp = () => {
                 </Routes>
             </div>
             <Footer2 />
+            </BrowserRouter>
 
         </>
     )
