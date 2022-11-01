@@ -78,5 +78,75 @@ console.log('Q11');
 // console.log(lydia)
 // console.log(sarah);
 
+console.log('deep and shallow copy');
+// in this it doesnt copy value , it copies memory location=>reference copy
+// pass by value and by reference
+// object=>copy memory location
+// var=>copy value
+
+// shalloe copy=>value copy
+
+let obj={name:'gayatri'}
+
+// let user=Object.assign({},obj)
+let user={...obj}
+
+user.name='ekta'
+
+console.log('object is:',obj);
+console.log('user is',user);
+
+// deep copy=>nested object get copied(memory location)
+// shalloe cpy=>in this complete object get coppied(value)
+
+let obj1={
+    name:'peter',
+    address:{
+        city:'Noida',
+        state:'up'
+    }
+};
+let user1=JSON.parse(JSON.stringify(obj1))
+user1.address='gurgaon'
+
+console.log(obj1);
+console.log(user1);
+// deepcopy=>function and dates problem, to solove this we ise loadash
+
+// let obj2={
+//     name:'peter',
+//     address:{
+//         city:'Noida',
+//         state:'up'
+//     }
+// };
+// // let user2=_.cloneDeep(obj)
+// user2.address='gurgaon'
+
+// console.log(obj2);
+// console.log(user2);
 
 
+
+console.log('Q12');
+
+let var1=5
+function closure(){
+let var1=10
+console.log(var1);
+}
+closure()
+
+
+let curring=(a=5)=>(b=1)=>{
+    return a+b
+}
+console.log(curring()(2))
+
+console.log("1"===true);
+// false
+console.log("1"==true);
+// true
+
+
+console.log("vlue is=>",1<0==0==0<1);
