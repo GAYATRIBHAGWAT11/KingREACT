@@ -39,5 +39,19 @@
 // inc1
 
 
-localStorage.setItem('firstName','gayatri')
-console.log(localStorage.getItem('firstName'));
+// localStorage.setItem('firstName','gayatri')
+// console.log(localStorage.getItem('firstName'));
+
+
+const add=function(){
+    let count=0
+    return function(){
+        count++
+        return count
+    }
+}
+let func=add()
+console.log(func());
+console.log(func());
+console.log(func());
+console.log(func());

@@ -39,3 +39,6 @@ return function(...args2){
 }
 let newBind=fun.myBind(bio2, 'uk','100km ','violet')
 newBind()
+
+
+

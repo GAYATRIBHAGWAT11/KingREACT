@@ -24,6 +24,7 @@ const LoginForm = () => {
 
     return (
         <>
+        <h1>this is login page</h1>
             <form className="form" action="" onSubmit={submit}>
                 <div className="email">
                     <label htmlFor="email">Email ID</label>

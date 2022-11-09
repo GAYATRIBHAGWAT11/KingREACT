@@ -99,7 +99,16 @@ import './App.css';
 // import MockReact from '/Users/admin/React/my-app/src/MockReact./MockReact.jsx'
 // import NoteContext from '/Users/admin/React/my-app/src/Context/NoteContext.jsx'
 // import Reducer from '/Users/admin/React/my-app/src/Reducer.jsx'
-import MockCounter from '/Users/admin/React/my-app/src/MockCounter.jsx'
+// import MockCounter from '/Users/admin/React/my-app/src/MockCounter.jsx'
+
+// import Timer from '/Users/admin/React/my-app/src/Timer/Timer.jsx'
+// import Share from '/Users/admin/React/my-app/src/NotionShare/Share.jsx'
+// import PracticeAdd from '/Users/admin/React/my-app/src/Component2/PracticeAdd.jsx'
+
+// import Ballbounce from '/Users/admin/React/my-app/src/Component2/Ballbounce.jsx'
+// import TestApi from '/Users/admin/React/my-app/src/TestApi.jsx'
+
+import LoginPage from '/Users/admin/React/my-app/src/ShadabSirTask/LoginPage.jsx'
 
 
 
@@ -107,7 +116,7 @@ import MockCounter from '/Users/admin/React/my-app/src/MockCounter.jsx'
 // Toggle=> classname
 function App() {
   return (
-    <App>
+    <>
       {/* <Landing/> */}
       {/* <Names/> */}
       {/* <Greeting/> */}
@@ -172,7 +181,13 @@ function App() {
       {/* ================================================== */}
       {/* <MockReact/> */}
       {/* <NoteContext /> */}
-      <MockCounter/>
+      {/* <MockCounter/> */}
+      {/* <Timer/> */}
+      {/* <Share/> */}
+      {/* <PracticeAdd/> */}
+      {/* <Ballbounce/> */}
+      {/* <TestApi/> */}
+      <LoginPage/>
 
 
 
@@ -197,7 +212,7 @@ function App() {
 
 
 
-    </App>
+    </>
   );
 }
 export default App;

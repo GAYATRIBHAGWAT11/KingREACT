@@ -1,0 +1,25 @@
+.flex{
+    display: flex;
+}
+.main_div{
+    width: 50%;
+    height: 50%;
+    background-color: whitesmoke;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.addweb{
+    display: flex;
+}
+.learn{
+    padding-top: 0.5rem;
+display: flex;
+justify-content:space-between;
+border-top: 1px solid lightgrey;
+}
+.Visible{
+    visibility: visible;
+}
+.hidden{
+    visibility: hidden;
+}
